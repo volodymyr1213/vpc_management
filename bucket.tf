@@ -1,10 +1,10 @@
-resource "aws_s3_bucket" "newbucket" {
-  bucket = "terraform-january-farrukh"
+resource "aws_s3_bucket" "mybucket13" {
+  bucket = "terraform-november-group"
 
   tags {
-     Name = "terraform-january-farrukh" 
+     Name = "terraform-november-group" 
      Env  = "dev" 
      Dept = "IT" 
-     Created_by = "Farrukh"
+     Created_by = "Volodymyr"
   }
 }
